@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Instructions</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,600;1,400;1,500;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,700;0,900;1,300;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,300&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar">
+            <div class="title">
+                <h2>HTML Tutorials</h2>
+            </div>
+            <div class="close">
+                <i class="ri-close-line"></i>
+            </div>
+            <ul>
+                <li><a class="item active" href="#" onclick="showInstruction('instruction-home')">Home</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-html')">HTML</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-introduction')">HTML Introduction</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-editor')">HTML Editor</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-basic')">HTML Basic</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-elements')">HTML Elements</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-attributes')">HTML Attributes</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-headings')">HTML Headings</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-paragraphs')">HTML Paragraphs</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-styles')">HTML Styles</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-formatting')">HTML Formatting</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-quotations')">HTML Quotations</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-comments')">HTML Comments</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-colors')">HTML Colors</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-css')">HTML CSS</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-links')">HTML Links</a></li>
+                <li><a class="item" href="#" onclick="showInstruction('instruction-images')">HTML Images</a></li>
+            </ul>
+        </div>
+
+        <div class="toggle-sidebar">
+            <i class="ri-menu-line"></i>
+        </div>
+
+    <div class="main-content">
+
+        <div id="instruction-home" class="instruction">
+            <li>Select Element From The Sidebar</li>
+        </div>
+
+        <div id="instruction-html" class="instruction" style="display: none;">
+            <ul class="instruction-list">
+                <li> stands for HyperText Markup Language. It is a markup language used to create and structure content for the World Wide Web. <br>HTML provides a set of markup tags that are used to describe the structure and content of a web page. These tags define the various elements of a web page,<br> such as headings, paragraphs, images, links, and more. - You will enjoy it!</li>
+            </ul>
+        </div>
+
+        <div id="instruction-introduction" class="instruction" style="display: none;">
+            <h3>
+                What is HTML?
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML stands for Hyper Text Markup Language</li>
+                <li>HTML is the standard markup language for creating Web pages</li>
+                <li>HTML describes the structure of a Web page</li>
+                <li>HTML consists of a series of elements</li>
+                <li>HTML elements tell the browser how to display the content</li>
+                <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-editor" class="instruction" style="display: none;">
+            <h3>
+                Learn HTML Using Notepad or TextEdit
+            </h3>
+            <ul class="instruction-list">
+                <li>Web pages can be created and modified by using professional HTML editors.</li>
+                <li>However, for learning HTML we recommend a simple text editor like Notepad (PC) or TextEdit (Mac).</li>
+                <li>We believe that using a simple text editor is a good way to learn HTML.</li>
+                <li>When using a text editor, be sure to save the file with an .html extension to ensure that it is recognized as an HTML document.</li>
+                <li>Basic HTML tags like &lt;html&gt;, &lt;head&gt;, and &lt;body&gt; should be included in the document to provide structure and formatting.</li>
+                <li>HTML tags can be nested inside each other to create more complex structures.</li>
+                <li>It is important to properly close all HTML tags to ensure that the document is valid and can be rendered correctly in a browser.</li>
+                <li>Images, links, and other resources should be linked to using proper HTML syntax, such as the &lt;img&gt; and &lt;a&gt; tags.</li>
+                <li>HTML documents can be enhanced with the use of CSS and JavaScript to provide additional styling and interactivity.</li>
+                <li>There are many online resources available for learning HTML, including tutorials, forums, and code snippets.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-basic" class="instruction" style="display: none;">
+            <h3>
+                Basic Instructions For HTML
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML uses tags to structure content.</li>
+                <li>HTML tags are enclosed in angle brackets, such as <code>&lt;tag&gt;</code>.</li>
+                <li>The opening tag denotes the start of an HTML element, and the closing tag denotes the end of an HTML element.</li>
+                <li>HTML attributes provide additional information about an element, and are specified within the opening tag.</li>
+                <li>HTML comments are used to add notes or reminders within the code and are ignored by the browser when rendering the page.</li>
+                <li>HTML documents must have a proper structure, including a doctype declaration, an HTML tag, a head section, and a body section.</li>
+                <li>HTML headings <code>(&lt;h1&gt;-&lt;h6&gt;)</code> are used to create headings and subheadings on a page.</li>
+                <li>HTML paragraphs (<code>&lt;p&gt;</code>) are used to create blocks of text.</li>
+                <li>HTML links <code>(&lt;a&gt;)</code> are used to create clickable links to other pages or websites.</li>
+                <li>HTML images <code>(&lt;img&gt;)</code> are used to display images on a page.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-elements" class="instruction" style="display: none;">
+            <h3>
+                Html Elements
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML tags are enclosed in angle brackets, such as <code>&lt;tag&gt;</code>.</li>
+                <li>The opening tag denotes the start of an HTML element, and the closing tag denotes the end of an HTML element.</li>
+                <li>HTML attributes provide additional information about an element, and are specified within the opening tag.</li>
+                <li>HTML comments are used to add notes or reminders within the code and are ignored by the browser when rendering the page. They are enclosed in &lt;!-- and --&gt;.</li>
+                <li>HTML documents must have a proper structure, including a doctype declaration <code>(&lt;!DOCTYPE html&gt;)</code>, an HTML tag <code>(&lt;html&gt;)</code>, a head section <code>(&lt;head&gt;)</code>, and a body section <code>(&lt;body&gt;)</code>.</li>
+                <li>HTML headings <code>(&lt;h1&gt; through &lt;h6&gt;)</code> are used to create headings and subheadings on a page.</li>
+                <li>HTML paragraphs <code>(&lt;p&gt;)</code> are used to create blocks of text.</li>
+                <li>HTML links <code>(&lt;a&gt;)</code> are used to create clickable links to other pages or websites.</li>
+                <li>HTML images <code>(&lt;img&gt;)</code> are used to display images on a page.</li>
+            </ul>
+        
+        </div> 
+
+        <div id="instruction-attributes" class="instruction" style="display: none;">
+            <h3>
+                HTML Attributes
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML attributes provide additional information about HTML elements.</li>
+                <li>Attributes are defined within the opening tag of an HTML element and are made up of a name and a value, separated by an equals sign.</li>
+                <li>Attributes can be used to modify an element's appearance, behavior, or other characteristics.</li>
+                <li>Common attributes include `class`, `id`, `style`, `src`, `href`, `alt`, and `title`.</li>
+                <li>The `class` attribute is used to apply CSS styles to a group of elements, while the `id` attribute is used to identify a unique element on a page.</li>
+                <li>The `style` attribute is used to apply inline styles to an element, while the `src` attribute is used to specify the URL of an external resource like an image or video.</li>
+                <li>The `href` attribute is used to specify the URL of a link, while the `alt` attribute is used to provide alternative text for an image or other media.</li>
+                <li>The `title` attribute is used to provide additional information about an element when a user hovers over it.</li>
+                <li>It is important to use attributes correctly and follow best practices for accessibility and usability when creating web pages.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-headings" class="instruction" style="display: none;">
+            <h3>
+                HTML Headings
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML headings are used to define the structure and hierarchy of a web page.</li>
+                <li>There are six levels of headings in HTML, ranging from (the most important heading) to  (the least important heading).</li>
+                <li>Headings should be used to indicate the main sections and subsections of a page, with used for the main heading of the page.</li>
+                <li>Using headings in a logical and hierarchical  order can improve the accessibility and usability of a web page.</li>
+                <li>Headings should be used to provide context and help users understand the content on the page, rather than just for styling purposes.</li>
+                <li>It is important to use only one element per page, as this is the main heading and should not be used for subheadings.</li>
+                <li>Headings can be styled using CSS to match the design of the page, but it is important to ensure that the headings remain clear and readable.</li>
+                <h1><code>&lt;h1&gt;This is a level 1 heading &lt;/h1&gt;</code></h1><br>
+                <h2><code>&lt;h2&gt;This is a level 2 heading &lt;/h2&gt;</code></h2><br>
+                <h3><code>&lt;h3&gt;This is a level 3 heading &lt;/h3&gt;</code></h3><br>
+                <h4><code>&lt;h4&gt;This is a level 4 heading &lt;/h4&gt;</code></h4><br>
+                <h5><code>&lt;h5&gt;This is a level 5 heading &lt;/h5&gt;</code></h5><br>
+                <h6><code>&lt;h6&gt;This is a level 6 heading &lt;/h6&gt;</code></h6>
+            </ul>
+        </div>
+
+        <div id="instruction-paragraphs" class="instruction" style="display: none;">
+            <h3>
+                HTML Paragraphs
+            </h3>
+            <ul class="instruction-list">
+                <li>In HTML, <code>&lt;a&gt;</code> paragraph is defined using the <code>&lt;p&gt;</code> tag, which stands for "paragraph". To create a paragraph, simply place your text inside the opening and closing <code>&lt;p&gt;</code> tags.</li>
+                <li>Paragraphs in HTML are block-level elements, which means they take up the full width of their parent container by default. This is in contrast to inline elements, which only take up as much width as necessary to display their content.</li>
+                <li>You can add additional formatting to your paragraphs using CSS, such as changing the font size, color, or adding a background color. This is done using CSS properties like font-size, color, and background-color.</li>
+                <li>When creating paragraphs in HTML, it's important to use them appropriately to structure your content. Paragraphs should generally be used for longer blocks of text, while headings (e.g. <code>&lt;h1&gt;, &lt;h2&gt;</code>, etc."") should be used to organize content into sections.</li>
+                <li>Finally, it's worth noting that there are some HTML tags that can be used within paragraphs to add additional formatting or content. For example, you can use the <code>&lt;strong&gt;</code> tag to make text bold, or the <code>&lt;a&gt;</code> tag to add hyperlinks to other pages or websites.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-styles" class="instruction" style="display: none;">
+            <h3>
+                Styling In HTML
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML styles are used to add presentational effects to HTML elements, such as changing the font, color, and layout of content.</li>
+                <li>HTML styles can be added to elements using inline styles or external style sheets.</li>
+                <li>Inline styles are added directly to an element using the style attribute, and take precedence over external styles.</li>
+                <li>External style sheets are created in a separate file with a .css extension, and linked to HTML documents using the &lt;link&gt; element in the head section.</li>
+                <li>Styles can be applied to elements based on their tag name, class, or ID using CSS selectors.</li>
+                <li>CSS properties can be used to modify various aspects of an element's style, including its font, color, size, background, margin, padding, and border.</li>
+                <li>The CSS box model is used to determine the layout of an element, including its content, padding, border, and margin.</li>
+                <li>CSS shorthand properties can be used to combine multiple properties into a single declaration, such as font-family and font-size.</li>
+                <li>CSS selectors can be combined and nested to target specific elements or groups of elements.</li>
+                <li>CSS media queries can be used to apply different styles to a page based on the screen size or device type.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-formatting" class="instruction" style="display: none;">
+            <h3>
+                HTML Formatting
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML formatting is used to change the appearance of text on a web page.</li>
+                <li>HTML provides several tags for formatting text, including <code>&lt;strong&gt;, &lt;em&gt;, &lt;u&gt;, &lt;s&gt;, and &lt;small&gt;</code>.</li>
+                <li>The <code>&lt;strong&gt;</code> tag is used to indicate strong emphasis or importance, and is typically rendered as bold text.</li>
+                <li>The <code>&lt;em&gt;</code> tag is used to indicate emphasis or stress, and is typically rendered as italicized text.</li>
+                <li>The <code>&lt;u&gt;</code> tag is used to underline text.</li>
+                <li>The <code>&lt;s&gt;</code> tag is used to indicate deleted or struck-through text.</li>
+                <li>The <code>&lt;small&gt;</code> tag is used to render text in a smaller font size.</li>
+                <li>HTML also provides several tags for creating headings and subheadings, including &lt;h1&gt; through &lt;h6&gt;.</li>
+                <li>The <code>&lt;br&gt;</code> tag is used to insert a line break within a block of text.</li>
+                <li>The <code>&lt;hr&gt;</code> tag is used to insert a horizontal line on a page.</li>
+                <li>The <code>&lt;pre&gt;</code> tag is used to preserve whitespace and formatting within a block of text, such as code snippets or poetry.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-quotations" class="instruction" style="display: none;">
+            <h3>
+                HTML Quotations
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML provides two types of quotations: <code>&lt;q&gt;</code> and <code>&lt;blockquote&gt;</code>.</li>
+                <li>The <code>&lt;q&gt;</code> element is used for short quotations that appear within a line of text, and typically renders with quotation marks around the text.</li>
+                <li>The <code>&lt;blockquote&gt;</code> element is used for longer quotations that appear as separate blocks of text, and typically renders with indentation and without quotation marks.</li>
+                <li>The <code>&lt;cite&gt;</code> element can be used to indicate the source of a quotation.</li>
+                <li>The <code>&lt;abbr&gt;</code> element can be used to provide an abbreviation or acronym for a term used in a quotation.</li>
+                <li>Quotations can also be styled using CSS, by targeting the <code>q</code> and <code>blockquote</code> elements or their respective classes or IDs.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-comments" class="instruction" style="display: none;">
+            <h3>
+                HTML Comments
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML comments are used to add notes or reminders within the code and are ignored by the browser when rendering the page.</li>
+                <li>HTML comments can be used to temporarily remove code from the page without deleting it.</li>
+                <li>To add a comment in HTML, use the &lt;!-- --&gt; syntax.</li>
+                <li>The opening &lt;!-- tag begins the comment, and the closing --&gt; tag ends the comment.</li>
+                <li>Comments can span multiple lines or be placed on a single line.</li>
+                <li>Comments should be used sparingly and only when necessary to improve code readability or provide context for future developers.</li>
+                <li>Comments should not be used to disable code or as a substitute for proper code organization and documentation.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-colors" class="instruction" style="display: none;">
+            <h3>
+                HTML Colors
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML colors are used to specify the color of text, backgrounds, borders, and other elements on a web page.</li>
+                <li>Colors in HTML can be defined using a variety of methods, including color names, hexadecimal values, RGB values, and HSL values.</li>
+                <li>HTML color names provide a set of predefined colors that can be used without the need for any additional code.</li>
+                <li>Hexadecimal values use a combination of six digits to define a color, with two digits each for the red, green, and blue components of the color.</li>
+                <li>RGB values define a color by specifying the intensity of its red, green, and blue components on a scale from 0 to 255.</li>
+                <li>HSL values define a color by specifying its hue, saturation, and lightness components on a scale from 0 to 360 or 0% to 100%.</li>
+                <li>Colors can be applied to HTML elements using the CSS color property.</li>
+                <li>The CSS color property can accept a variety of color values, including color names, hexadecimal values, RGB values, HSL values, and more.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-css" class="instruction" style="display: none;">
+            <h3>
+                Cascading Style Sheets
+            </h3>
+            <ul class="instruction-list">
+                <li>CSS is a stylesheet language used to define the visual style and layout of HTML documents.</li>
+                <li>CSS can be added to HTML documents using inline styles, internal styles, or external style sheets.</li>
+                <li>Inline styles are added directly to an element using the style attribute.</li>
+                <li>Internal styles are added within the head section of an HTML document using the &lt;style&gt; element.</li>
+                <li>External style sheets are created in a separate file with a .css extension, and linked to HTML documents using the &lt;link&gt; element in the head section.</li>
+                <li>CSS selectors are used to apply styles to specific HTML elements, based on the element's tag name, class, or ID.</li>
+                <li>CSS properties can be used to modify various aspects of an element's style, including its font, color, size, background, margin, padding, and border.</li>
+                <li>CSS shorthand properties can be used to combine multiple properties into a single declaration, such as font-family and font-size.</li>
+                <li>CSS inheritance allows styles to be applied to an element's children, and cascading rules determine which styles take precedence when multiple styles are applied to the same element.</li>
+                <li>CSS media queries can be used to apply different styles to a page based on the screen size or device type.</li>
+                <li>CSS preprocessors, such as Sass and Less, can be used to write CSS more efficiently and with additional functionality.</li>
+                <li>CSS frameworks, such as Bootstrap and Foundation, provide pre-written CSS and HTML templates for creating responsive and attractive web pages.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-links" class="instruction" style="display: none;">
+            <h3>
+                HTML Links
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML links are used to create clickable links to other pages or websites.</li>
+                <li>Links are created using the <code>&lt;a&gt;</code> (anchor) element, which requires a href attribute specifying the URL of the link.</li>
+                <li>The text between the opening and closing <code>&lt;a&gt;</code> tags is the visible link text that the user clicks on.</li>
+                <li>The target attribute can be used to specify where the linked document should be opened, such as in a new window or tab.</li>
+                <li>Links can also be created to specific sections of a page using anchor tags and IDs.</li>
+                <li>Relative URLs can be used to link to pages within the same website, while absolute URLs are used to link to pages on other websites.</li>
+                <li>Links should be descriptive and accurately reflect the content of the linked page.</li>
+                <li>Links should be tested to ensure they work properly and do not lead to broken or dead links.</li>
+            </ul>
+        </div>
+
+        <div id="instruction-images" class="instruction" style="display: none;">
+            <h3>
+                HTML Images
+            </h3>
+            <ul class="instruction-list">
+                <li>HTML images are used to display graphics or photographs on a web page.</li>
+                <li>Images can be added to a web page using the <code>&lt;img&gt;</code> tag.</li>
+                <li>The <code>&lt;img&gt;</code> tag requires a src attribute to specify the path to the image file.</li>
+                <li>Alternative text can be added to images using the alt attribute, which is important for accessibility and SEO purposes.</li>
+                <li>Images can be styled using CSS, including the width, height, and alignment.</li>
+                <li>Images can also be linked to other web pages or documents using the <code>&lt;a&gt;</code> tag.</li>
+                <li>Image formats commonly used on the web include JPEG, PNG, and GIF.</li>
+                <li>Optimizing images for the web is important for page load speed and user experience, and can be achieved through techniques such as compression and resizing.</li>
+            </ul>
+        </div>
+
+    </div>
+
+    </div>
+
+
+    <script src="javascript/script.js"></script>
+</body>
+</html>
